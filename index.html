@@ -3,6 +3,11 @@
 <head>
   <!-- manifest.jsonを呼び出しています -->
   <link rel="manifest" href="./manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="red">
+  <meta name="apple-mobile-web-app-title" content="bagelee">
+  <link rel="apple-touch-icon" href="./icon-192.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="./icon-256.png" sizes="256x256">
   <script>
     // service workerが有効なら、service-worker.js を登録します
     if ('serviceWorker' in navigator) {
